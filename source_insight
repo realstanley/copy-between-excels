@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+import subprocess as sub
+import os
+PATH=r'/root/.wine/drive_c/Program Files (x86)/Source Insight 3'
+os.chdir(PATH)
+#os.system('ls')
+sub.Popen(r"./Insight3.exe", shell=True)
